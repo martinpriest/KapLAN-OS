@@ -1,0 +1,31 @@
+<div class="modal fade" id="deviceGroupSetting" tabindex="-1" role="dialog" aria-labelledby="deviceGroupSetting"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form id="modalForm" class="form-horizontal" method="POST">
+                <fieldset>
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel"></h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+            
+                    <div class="modal-body">
+
+                        <input name="newDeviceGroupName" type="text" placeholder="Nowa nazwa grupy urządzeń" class="form-control input-md">
+                        <label for="temperatureDevice">Temperatura:</label>
+                        <select id="temperatureDevice" name="temperatureDevice" class="form-control">
+                            
+                        </select>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button name="editDeviceGroupButton" class="btn btn-success" type="button" onclick="">Edytuj grupę</button>
+                        <button name="clearButton" class="btn btn-danger" type="reset">Wyczyść</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>

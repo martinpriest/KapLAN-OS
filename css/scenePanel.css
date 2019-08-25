@@ -1,0 +1,60 @@
+/* URZADZENIA */
+.scene-group-container {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px black solid;
+}
+
+.scene-group-header {
+    width: 100%;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+    background: #d4d4d4;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px black solid;
+}
+
+.scene-group-header:hover {
+    background: #e0dede;
+    cursor: grab;
+}
+/* ROZKMINIC JAK ZROBIC ABY ZMIENIL SIE KURSOR PO PRZYTRZYMANIU HEADERA JEDNAK */
+/* .device-group-header:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+    background: yellow;
+} */
+
+.scene-group-title {
+    display: inline;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+    color: blue;
+    margin-left: 10px;
+    text-decoration: underline;
+}
+
+.scene-group-title + .button-icon {
+    margin-left: auto;
+}
+
+.scene-group-body {
+    background: #dfdede;
+    text-align: center;
+    padding: 20px;
+    float: left;
+    min-height: 100px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+}

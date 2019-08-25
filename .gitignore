@@ -1,0 +1,6 @@
+#File list to igonre
+*.txt
+*.doc
+*.docx
+*.xls
+*.xlsx

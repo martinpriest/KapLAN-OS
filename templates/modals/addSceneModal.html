@@ -1,0 +1,58 @@
+<div class="modal fade" id="addSceneGroup" tabindex="-1" role="dialog" aria-labelledby="addSceneGroup"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <form id="modalForm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Nowa scena</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+
+                <div class="modal-body">
+                    <h6>1. Wprowadź podstawowe dane</h6>
+                    <div class="form-row">
+                        <div class="form-group col-md-12">
+                            <input name="sceneName" placeholder="Wprowadź nazwę sceny" type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input name="startHour" type="time" value="00:00:00" class="form-control">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input name="endHour" type="time" value="23:59" class="form-control">
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="modal-body">
+                    <h6>2. Wprowadź warunki sprzyjające wykonaniu sceny</h6>
+
+                </div>
+
+
+
+                <div class="modal-body">
+                    <h6>3. Ułóż waruki w zdania logiczne</h6>
+
+                </div>
+
+
+                
+                <div class="modal-body">
+                    <h6>4. Po spełnieniu zdania logicznego wysteruj urządzenia</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <button name="addSceneGroupButton" class="btn btn-success" type="button" onclick="">Dodaj</button>
+                    <button name="clearButton" class="btn btn-danger" type="reset">Wyczyść</button>
+                </div>
+
+            </div>
+        </form>
+    </div>
+</div>

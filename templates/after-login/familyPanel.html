@@ -1,0 +1,52 @@
+<section id="familyPanel">
+    <h3 id="familyName" class="section-name"></h3>
+    <button class='btn btn-primary section-button' onclick='changeFamilyName()'>Zmień nazwę rodziny</button>
+    <table class="table table-hover table-dark table-bordered table-striped">
+        <thead>
+            <tr>
+                <th scope="col">Członkowie</th>
+                <th scope="col">Typ</th>
+                <th scope="col">Grupy urządzeń</th>
+                <th scope="col">Urządzenia</th>
+                <th scope="col">Sceny</th>
+            </tr>
+        </thead>
+        <tbody id="familyRows">
+
+        </tbody>
+    </table>
+    <button type="button" class="btn btn-primary section-button" data-toggle="modal" data-target="#exampleModal">Dodaj członka rodziny</button>          
+</section>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form id="modalForm" class="form-horizontal" method="POST">
+                <fieldset>
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Dodaj członka rodziny</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+            
+                    <div class="modal-body">
+                        <input name="newUserLogin" type="text" placeholder="Login" class="form-control input-md">
+                        <input name="newUserEmail" type="email" placeholder="Email" class="form-control input-md">
+                        <input name="newUserPassword" type="password" placeholder="Hasło" class="form-control input-md">
+                        <input name="newUserPassword2" type="password" placeholder="Potwórz hasło" class="form-control input-md">
+                        <select name="userType" class="form-control">
+                            <option value="1">Rodzic</option>
+                            <option value="2">Dziecko</option>
+                        </select>
+                    </div>
+                    <div class="modal-footer">
+                        <button name="registerButton" class="btn btn-success" type="button" onclick="registerAccount();">Nowe konto</button>
+                        <button name="clearButton" class="btn btn-danger" type="reset">Wyczyść</button>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+</div>

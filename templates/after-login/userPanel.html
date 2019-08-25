@@ -1,0 +1,23 @@
+<section id="userPanel">
+    <form>
+        <fieldset>
+            <legend><h3 class="section-name">Panel użytkownika</h3></legend>
+            
+            <input name="editUserLogin" type="text" placeholder="Wprowadź login" class="form-control input-md" required="">
+            <input name="editUserEmail" type="email" placeholder="Wprowadź hasło" class="form-control input-md">
+            <input name="actualPassword" type="password" placeholder="Wprowadź obecne hasło" class="form-control input-md" required="">
+            
+            <button name="loginButton" class="btn btn-success section-button" type="button" onclick="editUser();">Zmień login i email</button>
+
+        </fieldset>
+    </form><br><br>
+    <form>
+        <fieldset>
+            <legend><h3 class="section-name">Zmień hasło</h3></legend>
+            <input name="newUserPassword" type="password" placeholder="Nowe hasło" class="form-control input-md" required="">
+            <input name="newUserPassword2" type="password" placeholder="Potwórz nowe hasło" class="form-control input-md">
+            <input name="actualPassword2" type="password" placeholder="Wprowadź obecne hasło" class="form-control input-md" required="">
+            <button name="changePasswordButton" class="btn btn-success section-button" type="button" onclick="changePassword();">Zmień hasło</button>
+        </fieldset>
+    </form>
+</section>
