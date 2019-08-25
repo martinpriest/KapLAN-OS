@@ -1,7 +1,7 @@
 # KapLAN OS
-[logo]https://github.com/martinpriest/KapLAN-OS/blob/master/img/template/kaplanos.png "KapLAN OS"
+<img src='https://github.com/martinpriest/KapLAN-OS/blob/master/img/template/kaplanos.png' alt='KapLAN OS'/>
 
-KapLAN OS is software and hardware solutions for smart home system.
+KapLAN OS is software and hardware solutions for smart home system.<br/>
 This project was my engineer thesis. I wiil refactor this code especcialy web application and practise git.
 
 ## Plan
