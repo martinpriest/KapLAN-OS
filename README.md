@@ -1,4 +1,5 @@
 # KapLAN OS
+![alt text](https://github.com/martinpriest/KapLAN-OS/blob/master/img/template/kaplanos.png "KapLAN OS")
 KapLAN OS is software and hardware solutions for smart home system.
 This project was my engineer thesis. I wiil refactor this code especcialy web application and practise git.
 
