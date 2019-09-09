@@ -4,6 +4,9 @@
 KapLAN OS is software and hardware solutions for smart home system.<br/>
 This project was my engineer thesis. I wiil refactor this code especcialy web application and practise git.
 
+## Screen
+<img src='https://github.com/martinpriest/KapLAN-OS/blob/master/img/screen1.png' alt='KapLAN OS'/>
+
 ## Plan
 1. Organise project
 2. Refactoring API
